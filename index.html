@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechStore — Catálogo de Eletrônicos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">TechStore</a>
+        <span class="navbar-text text-white d-none d-md-inline">
+          Catálogo de Eletrônicos
+        </span>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+              <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h1 class="display-5 fw-bold text-primary">Bem-vindo à TechStore</h1>
+          <p class="lead">
+            Os melhores eletrônicos com preços acessíveis e entrega rápida.
+            Confira nossas ofertas e monte seu pedido!
+          </p>
+          <a href="#produtos" class="btn btn-primary btn-lg mt-2">Ver produtos</a>
+        </div>
+      </div>
+
+      <div class="alert alert-info" role="alert">
+         <strong>Promoção:</strong> 10% de desconto em pedidos acima de R$ 5.000,00
+        e frete grátis acima de R$ 500,00!
+      </div>
+
+      <h2 id="produtos" class="h4 mt-4 mb-3">Produtos em destaque</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Notebook Dell Inspiron</h5>
+              <p class="card-text">Intel i7, 16GB RAM, SSD 512GB.</p>
+              <span class="badge bg-success">Em estoque</span>
+              <span class="badge bg-primary">Informática</span>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <strong class="text-success">R$ 3.500,00</strong>
+              <button class="btn btn-sm btn-outline-primary">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Smartphone Galaxy S24</h5>
+              <p class="card-text">Tela AMOLED, 256GB, câmera tripla.</p>
+              <span class="badge bg-success">Em estoque</span>
+              <span class="badge bg-warning text-dark">Celulares</span>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <strong class="text-success">R$ 2.200,00</strong>
+              <button class="btn btn-sm btn-outline-primary">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Fone Bluetooth JBL</h5>
+              <p class="card-text">Cancelamento de ruído, 30h de bateria.</p>
+              <span class="badge bg-danger">Esgotado</span>
+              <span class="badge bg-secondary">Áudio</span>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <strong class="text-muted">R$ 350,00</strong>
+              <button class="btn btn-sm btn-outline-secondary" disabled>Indisponível</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Smartwatch Amazfit</h5>
+              <p class="card-text">GPS integrado, monitor cardíaco, AMOLED.</p>
+              <span class="badge bg-success">Em estoque</span>
+              <span class="badge bg-info text-dark">Wearables</span>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <strong class="text-success">R$ 800,00</strong>
+              <button class="btn btn-sm btn-outline-primary">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="alert alert-secondary mt-4" role="alert">
+        Abra o <strong>Console do navegador</strong> (<kbd>F12</kbd> → aba
+        <em>Console</em>) para ver todos os cálculos do pedido feitos pelo
+        <code>script.js</code>.
+      </div>
+
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p class="mb-0">TechStore © 2026 — Atividade de JavaScript ES6 + Bootstrap</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
